@@ -1,8 +1,9 @@
-#   PRINT inTRO
-#   soldiers variable stands for the x amount of soldiers
+print("For a detailed version please visit my github page /ravi0210/josephus")
+print("Run the formula script for x amount of soldiers where soldier y position should be.")
 
 
 def start():
+    # soldiers variable stands for the x amount of soldiers
     global lists
     global soldiers
     soldiers = input("Enter the number of soldiers:")
@@ -42,7 +43,6 @@ def refine():
         count -= 1
         power = 2 ** count
         remainder = soldiers - power
-        #   print("count: " + str(count) + " soldiers: " + str(soldiers) + " biggest power of two: " + str(power))
         if remainder <= power:
             josephus = 2 * remainder + 1
             print("the soldier who dies at last is soldier: #" + str(josephus))
@@ -53,7 +53,6 @@ def refine():
 
 
 def listing(lists, number):
-    # print(str(lists) + " - " + str(number))
     while lists > number:
         if (number & (number - 1)) == 0 or number % 2 == 0:
             print("total soldiers: #" + str(number) + " | last man: 1")
