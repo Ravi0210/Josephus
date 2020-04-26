@@ -1,7 +1,7 @@
 # Josephus
 The Josephus problem is a mathematical problem, where a group of soldiers are surrounded by the enemy. They prefer to die than be captured so they decide to stand in a circel to kill each other to prevent being imprisoned.
 
-The first soldier kills the second soldier, then the third soldier kills the fourth soldier and so on. When everyone has killed one soldier. they do the same thing; the first soldier kills the second and so on. Till the last soldier survives and that soldier has to kill him self.
+The first soldier kills the second soldier, then the third soldier kills the fourth soldier and so on. When everyone has killed one soldier. they do the same thing; the first soldier kills the second and so on. Till the last soldier survives and that soldier has to kill himself.
 
 But Josephus prefers to be captured instead of dying. But he can't surrender when everyone is alive because the soldiers will kill Josephus if he surrenders. So he has to calculate which spot in the circel he needs to stand at to die at last. So he can surrender when everyone is dead.
 
