@@ -18,10 +18,10 @@ def start():
                 print("Sorry, please don't use the backdoor for numbers above 1500!")
                 start()
             number = 1
-            listing(lists, number)
         soldiers = int(soldiers)
-        if soldiers == 0:
+        if soldiers <= 0:
             print("There must be at least 1 soldier in group for josephus to be calculated")
+            listing(lists, number)
             start()
     except ValueError:
         print("Please use whole numeric values!")
